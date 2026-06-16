@@ -4,7 +4,7 @@
 
 **当墨水拥有了灵魂**
 
-[官网](https://inkspires.cn) · [文档](https://doc.inkspires.cn) · [定价](https://inkspires.cn/pricing) · [反馈](../../issues/new/choose)
+[![Star](https://img.shields.io/github/stars/mahaonanStart/ink-spire-landing?style=social)](https://github.com/mahaonanStart/ink-spire-landing) &nbsp; [官网](https://inkspires.cn) · [文档](https://doc.inkspires.cn) · [定价](https://inkspires.cn/pricing) · [反馈](../../issues/new/choose)
 
 ---
 
