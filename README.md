@@ -4,7 +4,7 @@
 
 **当墨水拥有了灵魂**
 
-[官网](https://inkspires.cn) · [定价方案](https://inkspires.cn/pricing) · [使用文档](https://inkspires.cn/docs) · [常见问题](https://inkspires.cn/faq)
+[官网](https://inkspires.cn) · [文档](https://doc.inkspires.cn) · [定价](https://inkspires.cn/pricing) · [反馈](../../issues/new/choose)
 
 ---
 
@@ -14,28 +14,69 @@
 
 墨灵小说（InkSpire）是一款专为网文作者打造的 AI 创作工作台。不是又一个 ChatGPT 套壳，而是从世界观、人物、大纲到正文的完整创作系统，让一个人也能高效写出百万字长篇小说。
 
+## 截图
+
+### 剧情画布 -- 可视化掌控每一条故事线
+
+拖拽节点规划剧情走向，AI 必须遵守你设定的走向，不是"参考"，是"必须走"。
+
+<img src="screenshots/plot_canvas.jpg" width="700" alt="剧情画布">
+
+### 章节画布 -- 结构化大纲，一目了然
+
+每个节点是一章，拖拽调整顺序，AI 批量生成后逐章审阅采纳。
+
+<img src="screenshots/chapter_canvas.jpg" width="700" alt="章节画布">
+
+### 万物百科 -- AI 的长期记忆
+
+世界观、人物、势力、法宝沉淀为结构化知识库，AI 调用时自动注入上下文，写到 100 万字设定也不会漂移。
+
+<img src="screenshots/wiki.jpg" width="700" alt="万物百科">
+
+### 真相记忆 -- 伏笔追踪，永不遗忘
+
+追踪长篇伏笔、人物状态、关系演变。写到第 50 章你忘了掌门姓什么？百科帮你记着。
+
+<img src="screenshots/truth_memory.jpg" width="700" alt="真相记忆">
+
+### 沉浸式工作区 -- 画布 / 百科 / 编辑器，不切换
+
+所有工具在同一系统内，进入心流后不需要跳出去查笔记、切工具。
+
+<img src="screenshots/workspace.jpg" width="700" alt="工作区">
+
+### 数据中心 -- 创作数据一目了然
+
+<img src="screenshots/companion.jpg" width="700" alt="数据中心">
+
 ## 为什么不用 ChatGPT 写小说？
 
 | | ChatGPT | 墨灵小说 |
 |---|---|---|
 | 上下文 | 只有当次对话 | 自动注入世界观 + 人物 + 已写内容 |
-| 长篇一致性 | 写到20章后人设崩坏 | 画布约束 AI 走向，百科锁死设定 |
+| 长篇一致性 | 写到 20 章后人设崩坏 | 画布约束 AI 走向，百科锁死设定 |
 | 大纲管理 | 靠你自己记 | 剧情画布可视化拖拽编辑 |
-| 设定追踪 | 写到50万字忘了掌门姓什么 | 万物百科 + 真相记忆，永不漂移 |
+| 设定追踪 | 写到 50 万字忘了掌门姓什么 | 万物百科 + 真相记忆，永不漂移 |
 | 写作流程 | 对话框里写，写到哪算哪 | 世界观 → 人物 → 画布 → 章节，流程闭环 |
 
-## 核心功能
+## 核心能力
 
-- **AI 书灵** -- 专为小说创作的 AI 助手，支持续写、扩写、改写、润色、对话生成
-- **万物百科** -- 世界观、人物、势力、地点、法宝沉淀为结构化知识库，AI 调用时自动注入
-- **剧情画布** -- 可视化拖拽编辑章节大纲与剧情走向，AI 必须遵守你规划的走向
-- **真相记忆** -- 追踪长篇伏笔、人物状态、关系演变，百万字后设定不崩
-- **章节管理** -- 千章长篇丝滑加载，支持 Markdown 与富文本
-- **沉浸式编辑** -- 画布、百科、编辑器永远在同一系统里，不需要切换工具
+**可视化画布，掌控剧情走向**
+
+剧情画布和章节画布是你和 AI 之间的契约。你在画布上规划的每一个节点、每一条连线，AI 都必须遵守。不是"参考建议"，是"硬性边界"。全自动推进，也是在你的世界里推进。
+
+**AI 书灵，不是裸聊**
+
+AI 书灵基于多个大模型混合调度，每次调用自动注入你的世界观百科、人物设定、画布约束和已写内容。生成的人设一致、剧情连贯，你只需润色即可发表。支持续写、扩写、改写、润色、对话生成。
+
+**万物百科 + 真相记忆，百万字不崩设定**
+
+百科词条是 AI 的长期记忆。人物、势力、地点、法宝 -- 写到哪，AI 早就知道那里有什么。真相记忆追踪伏笔和人物状态演变，设定不会漂移，因为它被锁在系统里了。
 
 ## 谁在用？
 
-- **网文新人** -- 用 AI 起手式快速完成开局，跨越30万字断更门槛
+- **网文新人** -- 用 AI 起手式快速完成开局，跨越 30 万字断更门槛
 - **职业网文作者** -- 用世界观引擎管理 IP 宇宙，多书同步推进
 - **同人 / 短篇创作者** -- 用 AI 书灵快速产出场景与对话
 - **剧本与游戏文案** -- 用剧情画布串联多线分支叙事
@@ -46,35 +87,23 @@
 
 详见 [定价方案](https://inkspires.cn/pricing)。
 
-## 网文作者的崩溃时刻
+## 反馈与问题
 
-> 你让 AI 续写后续章节，它给的内容里——那个第8章就已经离开的角色，又回来了。
+遇到问题或有功能建议？欢迎提交 Issue：
 
-**解法：画布节点是 AI 的硬性边界。你规划的每一个走向，AI 都必须遵守，不是"参考"，是"必须走"。**
+- [Bug 反馈](../../issues/new?template=bug_report.md) -- 功能异常、体验问题
+- [功能建议](../../issues/new?template=feature_request.md) -- 你希望增加的功能
+- [使用疑问](../../issues/new?template=question.md) -- 不知道怎么用
 
-> 写到第50章，你已经记不清那个门派的掌门姓什么。
-
-**解法：百科词条是 AI 的长期记忆。设定不会漂移，因为它被锁在系统里了。**
-
-> 好不容易进入心流，突然要查笔记、要切工具——思路断了。
-
-**解法：画布、百科、编辑器，永远在同一个系统里。不需要切换，不需要跳出。**
-
-## 技术栈
-
-- Vue 3 + TypeScript + Vite
-- TipTap 富文本编辑器
-- Vue Flow 可视化画布
-- Pinia 状态管理
-- TailwindCSS
+我们会认真看每一条 Issue。
 
 ## 链接
 
 - 官网：[inkspires.cn](https://inkspires.cn)
-- 使用文档：[inkspires.cn/docs](https://inkspires.cn/docs)
-- 新手指引：[inkspires.cn/docs/getting-started](https://inkspires.cn/docs/getting-started)
-- 定价方案：[inkspires.cn/pricing](https://inkspires.cn/pricing)
+- 文档：[doc.inkspires.cn](https://doc.inkspires.cn)
+- 定价：[inkspires.cn/pricing](https://inkspires.cn/pricing)
 - 常见问题：[inkspires.cn/faq](https://inkspires.cn/faq)
+- 产品演示：[intro_final.mp4](https://file.inkspires.cn/product_intro/intro_final.mp4)
 
 ---
 
